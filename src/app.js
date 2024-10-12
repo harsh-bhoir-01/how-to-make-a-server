@@ -10,12 +10,6 @@ app.use("/", (req, res) => {
   res.send("hello from server");
 });
 
-// Set up a route for "/home"
-// When a request is made to "/home", the server will respond with "hello from server"
-app.use("/home", (req, res) => {
-  res.send("hello from server");
-});
-
 // Set up a route for "/login"
 // There is a missing forward slash ("/") before "login". It should be "/login"
 app.use("/login", (req, res) => {
@@ -25,6 +19,12 @@ app.use("/login", (req, res) => {
 // Set up a route for "/dashboard"
 // Similarly, there is a missing forward slash ("/") before "dashboard". It should be "/dashboard"
 app.use("/dashboard", (req, res) => {
+  res.send("hello from server");
+});
+
+// Set up a route for the root URL ("/")
+// When a request is made to "/", the server will respond with "hello from server"
+app.use("/", (req, res) => {
   res.send("hello from server");
 });
 
