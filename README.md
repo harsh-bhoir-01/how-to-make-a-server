@@ -46,8 +46,8 @@ _nodemon src/app.js_
 **7. Running via npm script**
 You can also set up a script in the package.json file to use nodemon. Modify the package.json file like this:                               
 "scripts": {
-  "start": "node index.js",
-  "dev": "nodemon index.js"
+  "start": "node src/app.js",
+  "dev": "nodemon src/app.js"
 }                                                                                                                                                                                            
 After that, you can run the server in development mode with:                                                                                                
 ***terminal***                                                                                                                                                                                      
