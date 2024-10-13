@@ -18,7 +18,7 @@ Next, install the required dependencies by running:
 _ npm install express_
 This will install Express.js, which is used to create and manage the server.
                                                                         
-**4. Install nodemon (Optional for Development)**
+**3. Install nodemon (Optional for Development)**
 If you want to use nodemon to automatically restart the server when changes are made, install nodemon globally by running:    
 ***terminal***                                                                                                                                                                                 
 _npm install -g nodemon_   
